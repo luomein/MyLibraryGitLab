@@ -1,11 +1,10 @@
 import XCTest
 @testable import MyLibraryGitLab
+import OpenAPIRuntime
+import OpenAPIURLSession
 
 final class MyLibraryGitLabTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(MyLibraryGitLab().text, "Hello, World!")
+    func test2()async throws{
+        let client = ClientWrapper.client
     }
 }
